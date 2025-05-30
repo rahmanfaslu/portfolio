@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fasalu Rahman</title>
+    <link rel="stylesheet" href="/portfolio/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="portfolio.js"></script>
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+
+</script>
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "YOUR_PUBLIC_KEY",
+      });
+   })();
+</script>
+</script>
+</head>
+<body>
+    <header class="header">
+     <h1 class="h1">Portfolio.</h1>
+     <nav class="navbar">
+        <a class="hideOnMobail" href="#" >Home</a>
+        <a class="hideOnMobail" href="#About" >About</a>
+        <a class="hideOnMobail" href="#skills">Skills</a>
+        <a class="hideOnMobail" href="#projects-a" >Projects</a>
+        <a class="hideOnMobail" href="#contact" >Contact</a>
+        <!-- <a class="menu" onclick="showSlideBar()" ><img src="/portfolio/menue.png" style="cursor: pointer;"></a> -->
+     </nav>
+
+     <nav class="sidebar">
+        <!-- <a onclick="hideSlidebar()" ><img src="/portfolio/close.png" style="cursor: pointer;"></a> -->
+        <a href="#" >Home</a>
+        <a href="#About" >About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects-a" >Projects</a>
+        <a href="#contact" >Contact</a>
+     </nav>
+
+    </header>
+
+    <section class="conatainor">
+        <div class="pic">
+            <img class="image" src="/portfolio/faslu.jpg" >
+        </div>
+        <div class="textarea-p">
+           <p style="line-height: 60px;" class="hitext" > Hi Everyone <br> <span class="iam">i am </span>  <br><span class="f">FASALU RAHMAN</span></p>
+            <p class="paragraph">I'm a passionate Web Developer skilled in HTML, CSS, and JavaScript. I love building responsive, user-friendly websites and constantly explore new technologies to improve my craft.
+With a strong eye for design and detail, I enjoy turning ideas into clean, functional web experiences. I'm especially interested in frontend development and always eager to learn, collaborate, and create impactful projects</p>
+            <a target="_blank" href="https://www.linkedin.com/in/fasalu-rahman-824a18289/" >
+            <img class="linkedin" src="/portfolio/linkedin.png"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/fasalu-rahman-824a18289/" >
+            <img class="github" href="#" src="/portfolio/github.png"></a>
+            <a target="_blank" href="https://www.instagram.com/rahman_fazll?igsh=cWRxMmJ0a2tidnU4" >
+            <img class="instagram" href="#" src="/portfolio/instagram.png"></a>
+        </div>
+     </section>
+
+     <!-- second section -->
+     
+     <section class="first-section" id="About">
+        <div class="first-container">
+            <p class="about-title" >About</p>
+            <hr class="hr">
+            <img class="image-about" src="/portfolio/faslu.jpg" >
+            <p class="about-text">I'm a passionate Web Developer skilled in HTML, CSS, and JavaScript. I love building responsive, user-friendly websites and constantly explore new technologies to improve my craft.
+With a strong eye for design and detail, I enjoy turning ideas into clean, functional web experiences. I'm especially interested in frontend development and always eager to learn, collaborate, and create impactful projects</p>
+        </div>
+     </section>
+
+     <section class="second-session" id="skills">
+        <div class="second-container">
+            <p class="skill-title" >SKILLS</p>
+            <hr class="hr">
+            <p class="skill-text">HTML </p>
+            <img class="html" src="/portfolio/html.png">
+            <img class="css" src="/portfolio/css.png">
+            <p class="skill-text">CSS </p>
+            <img class="js" src="/portfolio/js.png">
+            <p class="skill-text">JAVA SCRIPT </p>
+        </div>
+     </section>
+
+     <!-- third section -->
+
+     <section  class="third-session" id="projects-a">
+        <div class="third-container" >
+            <p class="projects-text">MY PROJECTS</p>
+            <div style="height: 200px;  width: 200px; background-color: rgb(255, 255, 246); border-radius: 10%;">
+                <a target="_blank" href="http://127.0.0.1:5500/easemytrip/easemy.html"> 
+                <img class="easemytrip-img" src="/portfolio/easemytrip.jpg" ></a>
+            </div>
+            <div  style="height: 200px; width: 200px; background-color: rgb(255, 241, 253);border-radius: 10%;">
+                <img class="w3school-img"  src="/portfolio/w3school.png">
+            </div>
+            <div  style="height: 200px; width: 200px; background-color: rgb(255, 255, 233);border-radius: 10%;">
+                <a target="_blank" href="http://127.0.0.1:5501/dom.html">
+                <img class="bankbalance-img"  src="/portfolio/Screenshot (65).png"></a>
+            </div>
+        </div>
+     </section>
+
+     <section  class="fourth-session" id="contact">
+        <div class="fourth-container" >
+            <p class="contact-text" >CONTACT ME</p>
+             
+            <div class="card">
+            Name <br><input type="text" placeholder="Enter your name" id="field"><br>
+            Email <br><input type="email" placeholder="email" id="mail"><br>
+            Message <br><textarea rows="1" placeholder="Enter message here..." id="textarea"></textarea><br><br>
+            <button   onclick="sendmail()" > Send Message</button>
+
+           </div>
+
+        </div>
+     </section>
+
+     <footer class="footer">
+        <div class="footer-social">
+            <a target="_blank" href="https://www.linkedin.com/in/fasalu-rahman-824a18289/" >
+            <img class="linkedin-footer" src="/portfolio/linkedin.png"></a>
+            <a target="_blank" href="https://www.linkedin.com/in/fasalu-rahman-824a18289/" >
+            <img class="github-footer" href="#" src="/portfolio/github.png"></a>
+            <a target="_blank" href="https://www.instagram.com/rahman_fazll?igsh=cWRxMmJ0a2tidnU4" >
+            <img class="instagram-footer" href="#" src="/portfolio/instagram.png"></a>
+        </div>
+    &copy; 2025 Your Fasalu Rahman. All rights reserved.
+  </footer>
+  <script>
+
+function sendmail() {
+    var parms = {
+        name: document.getElementById("field").value,
+        email: document.getElementById("mail").value,
+        message: document.getElementById("textarea").value,
+    }
+    emailjs.send("service_nwe0lta", "template_pkzb7ve", parms).then(function (res) {
+        document.getElementById("field").value = " ";
+        document.getElementById("mail").value = " ";
+        document.getElementById("textarea").value = " ";
+        alert("success" + res.status)
+    }
+    )
+
+
+
+}
+  </script>
+
+</body>
+</html>
